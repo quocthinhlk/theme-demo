@@ -27,5 +27,34 @@ img { width: 100%; height: 100%; max-width: 100%; -o-object-position: center; ob
 input { outline: none; }
 
 :root {
-	--mainColor: #caa966;
+	--mainColor: #cf9163;
+}
+
+.section_1 .section_inline{
+	width: 540px;
+	height: 350px;
+}
+.section_1 .section_inline .info{
+	width: 200px;
+	height: 150px;
+}
+.section_1 .section_inline .info .title{
+	font-size: 30px;
+	color: #111;
+	padding: 40px 0 0 20px;
+}
+.section_1 .section_inline .info .description{
+	padding: 0 0 30px 20px;
+	color: #111;
+
+}
+.section_1 .section_inline .info .readmore{
+	margin-left: 20px;
+	padding: 12px 20px;
+	border-radius: 2px;
+	background: var(--mainColor);
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
